@@ -1,4 +1,4 @@
-nav {
+.main-nav {
   --nav-gap: 50px;
 
   display: flex;
@@ -7,7 +7,7 @@ nav {
   gap: var(--nav-gap);
 }
 
-nav ul {
+.main-nav__ul {
   list-style: none;
   display: flex;
   align-items: center;
@@ -17,18 +17,18 @@ nav ul {
 }
 
 @media (max-width: 1200px) {
-  nav {
+  .main-nav {
     width: 100%;
     justify-content: space-between;
   }
 
-  .nav__ul {
+  .main-nav__ul {
     display: none;
   }
 }
 
 @media (min-width: 1200px) {
-  .nav__button {
+  .main-nav__button {
     display: none;
   }
 }

@@ -1,13 +1,12 @@
-import hamburgerImg from "../../images/hamburger.svg";
-import MainLogo from "../../images/logotype.svg";
-import "./MainNavigation.css";
+import MainLogo from "../../images/logotype-2.svg";
+import "./SecondaryNavigation.css";
 
-function MainNavigation() {
+function SecondaryNavigation() {
   return (
-    <nav className="main-nav">
+    <nav className="footer-nav">
       <img src={MainLogo} alt="Logo" />
 
-      <ul className="main-nav__ul">
+      <ul className="footer-nav__ul">
         <a href="#">
           <li>Why Calendio</li>
         </a>
@@ -27,15 +26,8 @@ function MainNavigation() {
           <li>Login</li>
         </a>
       </ul>
-
-      <button
-        className="main-nav__button"
-        onClick={() => alert("Not implemented yet")}
-      >
-        <img src={hamburgerImg} alt="" />
-      </button>
     </nav>
   );
 }
 
-export default MainNavigation;
+export default SecondaryNavigation;
