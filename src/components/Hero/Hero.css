@@ -20,3 +20,18 @@
   display: flex;
   gap: 30px;
 }
+
+@media (max-width: 1000px) {
+  .hero {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero__buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+}

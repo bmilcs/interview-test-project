@@ -41,7 +41,7 @@ body {
 
 /* consistent padding for all sections */
 #root > * {
-  padding-inline: 1rem;
+  padding-inline: 30px;
 }
 
 .column-large,
