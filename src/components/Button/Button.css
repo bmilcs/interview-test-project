@@ -1,18 +1,19 @@
 button {
   border-radius: var(--border-radius-100);
   border: 0;
-  padding: 10px 15px;
 
   color: var(--clr-button-fg);
   font-weight: bold;
 }
 
-.btn-font-large {
+.btn-large {
   font-size: 18px;
+  padding: 20px 25px;
 }
 
-.btn-font-small {
+.btn-small {
   font-size: 15px;
+  padding: 10px 15px;
 }
 
 .btn-dark {

@@ -76,3 +76,24 @@ a:focus {
   font-weight: bold;
   color: var(--clr-link);
 }
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--clr-blue-300);
+}
+
+p {
+  color: var(--clr-purple-100);
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 48px;
+}
