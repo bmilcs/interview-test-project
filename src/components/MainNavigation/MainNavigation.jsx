@@ -1,3 +1,4 @@
+import hamburgerImg from "../../images/hamburger.svg";
 import MainLogo from "../../images/logotype.svg";
 import "./MainNavigation.css";
 
@@ -6,7 +7,7 @@ function MainNavigation() {
     <nav>
       <img src={MainLogo} alt="Logo" />
 
-      <ul>
+      <ul className="nav__ul">
         <a href="#">
           <li>Why Calendio</li>
         </a>
@@ -26,6 +27,13 @@ function MainNavigation() {
           <li>Login</li>
         </a>
       </ul>
+
+      <button
+        className="nav__button"
+        onClick={() => alert("Not implemented yet")}
+      >
+        <img src={hamburgerImg} alt="" />
+      </button>
     </nav>
   );
 }

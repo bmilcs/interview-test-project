@@ -9,3 +9,9 @@
   display: flex;
   gap: 20px;
 }
+
+@media (max-width: 1200px) {
+  .header__button-wrapper {
+    display: none;
+  }
+}
