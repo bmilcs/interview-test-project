@@ -22,3 +22,11 @@
 body {
   font-family: var(--ff-primary);
 }
+
+#root {
+  padding-inline: 1rem;
+}
+
+column {
+  max-width: 1400px;
+}
