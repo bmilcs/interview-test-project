@@ -1,6 +1,5 @@
 footer {
   border-top: 1px solid var(--clr-purple-200);
-  padding-block: 50px;
 }
 
 footer p,
@@ -12,4 +11,18 @@ footer a {
 }
 
 .footer {
+  padding-block: 50px;
+}
+
+@media (min-width: 1000px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+  }
+
+  .footer p {
+    width: max-content;
+  }
 }

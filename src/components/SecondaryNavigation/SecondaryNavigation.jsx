@@ -26,6 +26,8 @@ function SecondaryNavigation() {
           <li>Login</li>
         </a>
       </ul>
+
+      <p>All Rights Reserved ® Calendio 2023</p>
     </nav>
   );
 }
