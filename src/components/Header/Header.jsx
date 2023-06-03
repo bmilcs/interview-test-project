@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <header className={`bg-light`} ref={headerRef}>
-      <div className={`${isHeaderOffScreen ? "visible" : "invisible"}`}>
+      <div className={`${isHeaderOffScreen ? "fixed-header" : ""}`}>
         <div className={`column-large header`}>
           <MainNavigation />
 
