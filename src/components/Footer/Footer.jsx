@@ -1,5 +1,11 @@
+import MainNavigation from "../MainNavigation/MainNavigation";
+
 function Footer() {
-  return <div>Footer</div>;
+  return (
+    <footer className="bg-dark">
+      <MainNavigation />
+    </footer>
+  );
 }
 
 export default Footer;

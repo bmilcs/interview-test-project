@@ -5,12 +5,12 @@ function Newsletter() {
   return (
     <section className="bg-dark">
       <div className="column-large newsletter">
-        <h2>Stay in the loop with our newsletter</h2>
+        <h3>Stay in the loop with our newsletter</h3>
 
         <div className="input-wrapper">
           <form action="">
-            <input type="text" placeholder="Enter your email address..." />
-            <Button>Subscribe</Button>
+            <input type="email" placeholder="Enter your email address..." />
+            <Button btnColor="light">Subscribe</Button>
           </form>
         </div>
       </div>

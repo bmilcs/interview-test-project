@@ -68,6 +68,7 @@ body {
 
 .bg-dark {
   background: var(--clr-bg-dark);
+  color: var(--clr-neutral-100);
 }
 
 a,
