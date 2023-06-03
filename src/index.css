@@ -25,8 +25,14 @@ body {
 
 #root {
   padding-inline: 1rem;
+  min-height: 100%;
+  margin-inline: auto;
 }
 
-column {
+column-large {
   max-width: 1400px;
+}
+
+column-small {
+  max-width: 1160px;
 }

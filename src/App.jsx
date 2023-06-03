@@ -4,14 +4,14 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Newsletter from "./components/Newsletter/Newsletter";
-import Sponsors from "./components/Sponsors/Partners";
+import Partners from "./components/Partners/Partners";
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
-      <Sponsors />
+      <Partners />
       <Benefits />
       <Features />
       <Newsletter />
