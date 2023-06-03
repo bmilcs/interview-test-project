@@ -8,7 +8,7 @@ function Benefits() {
     <section className="bg-white">
       <div className="column-small benefits">
         <div className="benefit">
-          <div className="benefit-content">
+          <div className="benefit__content">
             <h3>Automated appointment booking and payment processing</h3>
             <p>
               Encourage early booking with the personalized booking environment
@@ -17,12 +17,12 @@ function Benefits() {
               booking experience for your client.
             </p>
           </div>
-          <div className="benefit-image-wrapper">
+          <div className="benefit__image-wrapper">
             <img src={benefitImg1} alt="Benefit Image 1" />
           </div>
         </div>
         <div className="benefit">
-          <div className="benefit-content">
+          <div className="benefit__content">
             <h3>Appointment reminders for all participants</h3>
             <p>
               No more forgotten appointments. Our scheduling software will
@@ -30,12 +30,12 @@ function Benefits() {
               staff and the customers receive appointment reminders and updates.
             </p>
           </div>
-          <div className="benefit-image-wrapper">
+          <div className="benefit__image-wrapper">
             <img src={benefitImg2} alt="Benefit Image 1" />
           </div>
         </div>
         <div className="benefit">
-          <div className="benefit-content">
+          <div className="benefit__content">
             <h3>Monitor your business performance</h3>
             <p>
               The Calendio online booking system helps you increase sales by
@@ -44,7 +44,7 @@ function Benefits() {
               statistics.
             </p>
           </div>
-          <div className="benefit-image-wrapper">
+          <div className="benefit__image-wrapper">
             <img src={benefitImg3} alt="Benefit Image 1" />
           </div>
         </div>
