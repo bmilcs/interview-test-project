@@ -21,6 +21,7 @@ function Benefits() {
             <img src={benefitImg1} alt="Benefit Image 1" />
           </div>
         </div>
+
         <div className="benefit">
           <div className="benefit__content">
             <h3>Appointment reminders for all participants</h3>
@@ -34,6 +35,7 @@ function Benefits() {
             <img src={benefitImg2} alt="Benefit Image 1" />
           </div>
         </div>
+
         <div className="benefit">
           <div className="benefit__content">
             <h3>Monitor your business performance</h3>

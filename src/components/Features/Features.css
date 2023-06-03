@@ -48,5 +48,10 @@
 @media (max-width: 1060px) {
   .features {
     flex-direction: column;
+    max-width: 100%;
+  }
+
+  .features__content {
+    max-width: 680px;
   }
 }
