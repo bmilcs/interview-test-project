@@ -3,8 +3,8 @@ import "./Newsletter.css";
 
 function Newsletter() {
   return (
-    <section className="newsletter bg-dark">
-      <div className="column-large">
+    <section className="bg-dark">
+      <div className="column-large newsletter">
         <h2>Stay in the loop with our newsletter</h2>
 
         <div className="input-wrapper">

@@ -5,8 +5,8 @@ import "./Benefits.css";
 
 function Benefits() {
   return (
-    <section className="benefits bg-white">
-      <div className="column-small">
+    <section className="bg-white">
+      <div className="column-small benefits">
         <div className="benefit">
           <div className="benefit-content">
             <h3>Automated appointment booking and payment processing</h3>

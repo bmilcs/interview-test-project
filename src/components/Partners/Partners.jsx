@@ -7,8 +7,8 @@ import partnerImg6 from "../../images/partner-6.svg";
 
 function Partners() {
   return (
-    <section className="partners bg-dark">
-      <div className="column-large partners-wrapper">
+    <section className="bg-dark">
+      <div className="column-large partners">
         <img src={partnerImg1} alt="" />
         <img src={partnerImg2} alt="" />
         <img src={partnerImg3} alt="" />
