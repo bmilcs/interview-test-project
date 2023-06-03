@@ -25,7 +25,8 @@
 
   --border-radius-100: 2px;
 
-  --clr-link: var(--clr-blue-300);
+  --clr-link-dark: var(--clr-blue-300);
+  --clr-link-light: var(--clr-blue-100);
 
   /* font */
   --ff-primary: Helvetica, "Arial", sans-serif;
@@ -74,7 +75,7 @@ a:visited,
 a:focus {
   text-decoration: none;
   font-weight: bold;
-  color: var(--clr-link);
+  color: var(--clr-link-dark);
 }
 
 h1,
@@ -96,4 +97,9 @@ h2 {
 h3 {
   font-size: 40px;
   line-height: 48px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
 }
