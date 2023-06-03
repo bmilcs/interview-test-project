@@ -5,7 +5,7 @@ import "./Features.css";
 
 function Features() {
   return (
-    <section className="features">
+    <section className="features bg-light">
       <div className="column-small">
         <div className="features__img-wrapper">
           <img src={featureImg1} alt="" />

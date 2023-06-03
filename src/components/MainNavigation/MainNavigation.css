@@ -1,0 +1,17 @@
+nav {
+  --nav-gap: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--nav-gap);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: var(--nav-gap);
+
+  font-size: 14px;
+}

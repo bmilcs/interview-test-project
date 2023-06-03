@@ -3,7 +3,7 @@ import "./Newsletter.css";
 
 function Newsletter() {
   return (
-    <section className="newsletter">
+    <section className="newsletter bg-dark">
       <div className="column-large">
         <h2>Stay in the loop with our newsletter</h2>
 

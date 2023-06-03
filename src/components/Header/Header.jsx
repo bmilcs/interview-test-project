@@ -4,12 +4,18 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header>
-      <MainNavigation />
+    <header className="bg-light">
+      <div className="column-large header">
+        <MainNavigation />
 
-      <div className="header-button-wrapper">
-        <Button>Start Free Trial</Button>
-        <Button>Schedule Demo</Button>
+        <div className="header__button-wrapper">
+          <Button btnColor="dark" btnSize="small">
+            Start Free Trial
+          </Button>
+          <Button btnColor="darker" btnSize="small">
+            Schedule Demo
+          </Button>
+        </div>
       </div>
     </header>
   );
