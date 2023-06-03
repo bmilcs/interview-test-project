@@ -4,6 +4,7 @@ import partnerImg3 from "../../images/partner-3.svg";
 import partnerImg4 from "../../images/partner-4.svg";
 import partnerImg5 from "../../images/partner-5.svg";
 import partnerImg6 from "../../images/partner-6.svg";
+import "./Partners.css";
 
 function Partners() {
   return (
