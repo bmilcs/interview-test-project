@@ -4,6 +4,11 @@
   padding-block: 120px;
 }
 
+.benefit__content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
 .benefit__content > h3 {
   margin-bottom: 20px;
 }

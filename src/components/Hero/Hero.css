@@ -21,11 +21,15 @@
   gap: 30px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   .hero {
     flex-direction: column;
     gap: 40px;
     align-items: center;
+  }
+
+  .hero__content {
+    max-width: 800px;
   }
 }
 
