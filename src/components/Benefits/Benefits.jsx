@@ -53,7 +53,7 @@ function Benefits() {
       } else if (benefit2OnScreen) {
         setActiveImage(2);
       } else {
-        setActiveImage(null);
+        setActiveImage(0);
       }
     },
     [
