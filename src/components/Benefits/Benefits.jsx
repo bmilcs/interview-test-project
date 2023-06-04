@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import useElementOnScreenWithPosition from "../../hooks/useElementOnScreenWithPosition";
 import useWindowWidth from "../../hooks/useWindowWidth";
-import benefitImg1 from "../../images/benefit-1.png";
-import benefitImg2 from "../../images/benefit-2.png";
-import benefitImg3 from "../../images/benefit-3.png";
+import benefitImg1 from "../../images/benefit-1.webp";
+import benefitImg2 from "../../images/benefit-2.webp";
+import benefitImg3 from "../../images/benefit-3.webp";
 import "./Benefits.css";
 
 function Benefits() {

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import featureImg1 from "../../images/feature-1.png";
-import featureImg2 from "../../images/feature-2.png";
-import featureImg3 from "../../images/feature-3.png";
+import featureImg1 from "../../images/feature-1.webp";
+import featureImg2 from "../../images/feature-2.webp";
+import featureImg3 from "../../images/feature-3.webp";
 import "./Features.css";
 
 function Features() {

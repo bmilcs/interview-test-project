@@ -1,4 +1,4 @@
-import HeroImg from "../../images/hero.png";
+import HeroImg from "../../images/hero.webp";
 import Button from "../Button/Button";
 import "./Hero.css";
 
