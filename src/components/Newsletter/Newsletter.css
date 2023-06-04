@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.newsletter h3 {
+.newsletter h2 {
   color: var(--clr-neutral-100);
   margin-bottom: 40px;
 }
@@ -53,7 +53,7 @@
     max-width: 560px;
   }
 
-  .newsletter h3 {
+  .newsletter h2 {
     margin-bottom: 0;
   }
 }
