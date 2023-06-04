@@ -19,6 +19,10 @@
   color: var(--clr-neutral-100);
 }
 
+.footer-nav a:hover {
+  color: var(--clr-neutral-400);
+}
+
 @media (min-width: 1000px) {
   .footer-nav {
     display: flex;
