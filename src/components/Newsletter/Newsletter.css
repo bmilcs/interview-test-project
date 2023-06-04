@@ -14,13 +14,14 @@
 
   display: flex;
   justify-content: space-between;
-  flex-grow: 1;
+  flex: 1;
 
   border-radius: var(--border-radius-100);
 }
 
 .newsletter form {
   width: 100%;
+  max-width: 88vw;
   display: flex;
 }
 
@@ -29,7 +30,7 @@
   border: 0;
   padding: 21.5px 20px;
   flex: 1;
-  min-width: 50px;
+  min-width: 20px;
 }
 
 .newsletter input:focus {
