@@ -49,16 +49,7 @@
 
   .benefit__image-wrapper img.active-benefit {
     display: block;
-    animation: animateIn 0.75s ease-in-out forwards;
+    animation: fadeIn 0.75s ease-in-out forwards;
     z-index: 2;
-  }
-}
-
-@keyframes animateIn {
-  0% {
-    opacity: 0.75;
-  }
-  100% {
-    opacity: 1;
   }
 }

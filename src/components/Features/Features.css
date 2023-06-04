@@ -18,6 +18,7 @@
 
 .features__img-wrapper img.active-image {
   display: block;
+  animation: fadeIn 0.75s ease-in-out forwards;
 }
 
 .features__content {
