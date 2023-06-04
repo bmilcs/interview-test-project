@@ -4,7 +4,7 @@ import "./MainNavigation.css";
 
 function MainNavigation() {
   return (
-    <nav className="main-nav">
+    <nav className="main-nav" aria-label="Main Navigation">
       <img src={MainLogo} alt="Logo" />
 
       <ul className="main-nav__ul">
@@ -36,6 +36,7 @@ function MainNavigation() {
       <button
         className="main-nav__button"
         onClick={() => alert("Not implemented yet")}
+        aria-label="Expand Navigation"
       >
         <img src={hamburgerImg} alt="" />
       </button>

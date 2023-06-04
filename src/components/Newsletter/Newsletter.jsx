@@ -5,7 +5,7 @@ function Newsletter() {
   return (
     <section className="bg-dark">
       <div className="column-large newsletter">
-        <h3>Stay in the loop with our newsletter</h3>
+        <h2>Stay in the loop with our newsletter</h2>
 
         <div className="input-wrapper">
           <form action="">

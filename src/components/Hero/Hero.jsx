@@ -7,7 +7,7 @@ function Hero() {
     <section className="bg-light">
       <div className="column-large hero">
         <div className="hero__content">
-          <h2>The most intuitive online booking system</h2>
+          <h1>The most intuitive online booking system</h1>
           <p>
             Calendio booking software helps you automate bookings, payments and
             reminders and manage services, employees, and locations. Set your

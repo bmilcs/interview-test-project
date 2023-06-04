@@ -35,7 +35,7 @@ function Features() {
               className="features__feature"
               onClick={() => setActiveSlide(0)}
             >
-              <h4>Learn About Your Business Occupancy and Earned Revenue</h4>
+              <h3>Learn About Your Business Occupancy and Earned Revenue</h3>
               {activeSlide === 0 ? (
                 <>
                   <p>
@@ -54,7 +54,7 @@ function Features() {
               className="features__feature"
               onClick={() => setActiveSlide(1)}
             >
-              <h4>Discover Your Returning Customer Rate</h4>
+              <h3>Discover Your Returning Customer Rate</h3>
               {activeSlide === 1 ? (
                 <>
                   <p>
@@ -73,7 +73,7 @@ function Features() {
               className="features__feature"
               onClick={() => setActiveSlide(2)}
             >
-              <h4>Easily Identify Your Most Demanded Employees and Services</h4>
+              <h3>Easily Identify Your Most Demanded Employees and Services</h3>
               {activeSlide === 2 ? (
                 <>
                   <p>

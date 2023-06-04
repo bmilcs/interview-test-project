@@ -3,7 +3,7 @@ import "./SecondaryNavigation.css";
 
 function SecondaryNavigation() {
   return (
-    <nav className="footer-nav">
+    <nav className="footer-nav" aria-label="Secondary Navigation">
       <img src={MainLogo} alt="Logo" />
 
       <ul className="footer-nav__ul">

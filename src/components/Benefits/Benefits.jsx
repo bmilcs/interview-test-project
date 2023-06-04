@@ -75,7 +75,7 @@ function Benefits() {
           <>
             <div className="benefit__text-column">
               <div className="benefit__content" ref={benefit0Ref}>
-                <h3>Automated appointment booking and payment processing</h3>
+                <h2>Automated appointment booking and payment processing</h2>
                 <p>
                   Encourage early booking with the personalized booking
                   environment created by Calendio. Our appointment booking
@@ -85,7 +85,7 @@ function Benefits() {
               </div>
 
               <div className="benefit__content" ref={benefit1Ref}>
-                <h3>Appointment reminders for all participants</h3>
+                <h2>Appointment reminders for all participants</h2>
                 <p>
                   No more forgotten appointments. Our scheduling software will
                   automatically send email and SMS notifications so that both
@@ -95,7 +95,7 @@ function Benefits() {
               </div>
 
               <div className="benefit__content" ref={benefit2Ref}>
-                <h3>Monitor your business performance</h3>
+                <h2>Monitor your business performance</h2>
                 <p>
                   The Calendio online booking system helps you increase sales by
                   providing important business reports and dashboards to help
@@ -129,7 +129,7 @@ function Benefits() {
           <>
             <div className="benefit" ref={benefit0Ref}>
               <div className="benefit__content">
-                <h3>Automated appointment booking and payment processing</h3>
+                <h2>Automated appointment booking and payment processing</h2>
                 <p>
                   Encourage early booking with the personalized booking
                   environment created by Calendio. Our appointment booking
@@ -150,7 +150,7 @@ function Benefits() {
 
             <div className="benefit">
               <div className="benefit__content" ref={benefit1Ref}>
-                <h3>Appointment reminders for all participants</h3>
+                <h2>Appointment reminders for all participants</h2>
                 <p>
                   No more forgotten appointments. Our scheduling software will
                   automatically send email and SMS notifications so that both
@@ -171,7 +171,7 @@ function Benefits() {
 
             <div className="benefit">
               <div className="benefit__content" ref={benefit2Ref}>
-                <h3>Monitor your business performance</h3>
+                <h2>Monitor your business performance</h2>
                 <p>
                   The Calendio online booking system helps you increase sales by
                   providing important business reports and dashboards to help
