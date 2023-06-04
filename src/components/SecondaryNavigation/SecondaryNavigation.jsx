@@ -1,10 +1,10 @@
-import MainLogo from "../../images/logotype-2.svg";
+import Logotype2 from "../../images/logotype-2";
 import "./SecondaryNavigation.css";
 
 function SecondaryNavigation() {
   return (
     <nav className="footer-nav" aria-label="Secondary Navigation">
-      <img src={MainLogo} alt="Logo" />
+      <Logotype2 />
 
       <ul className="footer-nav__ul">
         <li>

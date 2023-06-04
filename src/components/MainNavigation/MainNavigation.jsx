@@ -1,11 +1,11 @@
-import hamburgerImg from "../../images/hamburger.svg";
-import MainLogo from "../../images/logotype.svg";
+import Hamburger from "../../images/hamburger";
+import Logotype from "../../images/logotype";
 import "./MainNavigation.css";
 
 function MainNavigation() {
   return (
     <nav className="main-nav" aria-label="Main Navigation">
-      <img src={MainLogo} alt="Logo" />
+      <Logotype />
 
       <ul className="main-nav__ul">
         <li>
@@ -38,7 +38,7 @@ function MainNavigation() {
         onClick={() => alert("Not implemented yet")}
         aria-label="Expand Navigation"
       >
-        <img src={hamburgerImg} alt="" />
+        <Hamburger />
       </button>
     </nav>
   );
