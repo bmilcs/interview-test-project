@@ -4,7 +4,7 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <section className="bg-light">
+    <section className="bg-light" aria-label="Hero">
       <div className="column-large hero">
         <div className="hero__content">
           <h1>The most intuitive online booking system</h1>

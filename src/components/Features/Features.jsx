@@ -8,7 +8,7 @@ function Features() {
   const [activeSlide, setActiveSlide] = useState(0);
 
   return (
-    <section className="bg-light">
+    <section className="bg-light" aria-label="Features">
       <div className="column-small features">
         <div className="features__img-wrapper">
           <img

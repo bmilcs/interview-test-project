@@ -69,7 +69,7 @@ function Benefits() {
   );
 
   return (
-    <section className="bg-white">
+    <section className="bg-white" aria-label="Benefits">
       <div className="column-small benefits">
         {activeScrollAnimation ? (
           <>

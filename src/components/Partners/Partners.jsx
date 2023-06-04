@@ -8,7 +8,7 @@ import "./Partners.css";
 
 function Partners() {
   return (
-    <section className="bg-dark">
+    <section className="bg-dark" aria-label="Partners">
       <div className="column-large partners">
         <img src={partnerImg1} alt="" />
         <img src={partnerImg2} alt="" />
