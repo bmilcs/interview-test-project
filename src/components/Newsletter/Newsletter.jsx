@@ -9,7 +9,11 @@ function Newsletter() {
 
         <div className="input-wrapper">
           <form action="">
-            <input type="email" placeholder="Enter your email address..." />
+            <input
+              type="email"
+              placeholder="Enter your email address..."
+              aria-label="Email Address"
+            />
             <Button btnColor="light">Subscribe</Button>
           </form>
         </div>
