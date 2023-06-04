@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useElementOnScreen = (elementRef) => {
+const useElementOnScreen = (elementRef, rootMargin = "0px") => {
   const [isOnScreen, setIsOnScreen] = useState(false);
 
   useEffect(() => {
@@ -8,7 +8,7 @@ const useElementOnScreen = (elementRef) => {
       ([entry]) => {
         setIsOnScreen(entry.isIntersecting);
       },
-      { threshold: 0 },
+      { rootMargin },
     );
 
     const element = elementRef.current;
@@ -21,7 +21,7 @@ const useElementOnScreen = (elementRef) => {
         observer.unobserve(element);
       }
     };
-  }, [elementRef]);
+  }, [elementRef, rootMargin]);
 
   return isOnScreen;
 };

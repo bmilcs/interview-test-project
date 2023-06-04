@@ -24,12 +24,41 @@
 }
 
 @media (min-width: 1200px) {
-  .benefit {
-    display: grid;
+  .benefits {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .benefit__content {
-    padding-right: 160px;
+    padding-bottom: 200px;
+  }
+
+  .benefit__image-column {
+    position: relative;
+  }
+
+  .benefit__image-wrapper {
+    position: sticky;
+    top: 29vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .benefit__image-wrapper img {
+    display: none;
+  }
+
+  .benefit__image-wrapper img.active-benefit {
+    display: block;
+    animation: animateIn 0.75s ease-in-out forwards;
+    z-index: 2;
+  }
+}
+
+@keyframes animateIn {
+  0% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
   }
 }
