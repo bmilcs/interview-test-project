@@ -30,6 +30,10 @@
   border-bottom: 1px solid var(--clr-neutral-200);
 }
 
+.features__feature h3 {
+  cursor: pointer;
+}
+
 .features__feature p {
   font-size: 16px;
   line-height: 24px;
