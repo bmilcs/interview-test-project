@@ -2,8 +2,16 @@ button {
   border-radius: var(--border-radius-100);
   border: 0;
 
+  cursor: pointer;
+
   color: var(--clr-button-fg);
   font-weight: bold;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
 }
 
 .btn-large {
