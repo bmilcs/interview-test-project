@@ -15,16 +15,19 @@ function Features() {
             src={featureImg1}
             alt="Business Occupancy and Earned Revenue"
             className={activeSlide === 0 ? "active-image" : ""}
+            loading="lazy"
           />
           <img
             src={featureImg2}
             alt="Returning Customer Rate"
             className={activeSlide === 1 ? "active-image" : ""}
+            loading="lazy"
           />
           <img
             src={featureImg3}
             alt="Most Demanded Employees and Services"
             className={activeSlide === 2 ? "active-image" : ""}
+            loading="lazy"
           />
         </div>
 

@@ -116,11 +116,13 @@ function Benefits() {
                   src={benefitImg2}
                   alt="Benefit Image 1"
                   className={`${activeImage === 1 ? "active-benefit" : ""}`}
+                  loading="lazy"
                 />
                 <img
                   src={benefitImg3}
                   alt="Benefit Image 1"
                   className={`${activeImage === 2 ? "active-benefit" : ""}`}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -165,6 +167,7 @@ function Benefits() {
                   className={`${
                     activeImage === 1 ? "active-benefit" : "inactive-benefit"
                   }`}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -186,6 +189,7 @@ function Benefits() {
                   className={`${
                     activeImage === 2 ? "active-benefit" : "inactive-benefit"
                   }`}
+                  loading="lazy"
                 />
               </div>
             </div>
